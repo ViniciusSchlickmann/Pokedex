@@ -3,12 +3,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const pokemons = [
         {
+            id: 2,
+            name: 'Ivysaur',
+            image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png',
+            types: ['grass', 'poison']
+        },
+        {
             id: 3,
             name: 'Venusaur',
             image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png',
             types: ['grass', 'poison']
         },
-        {
+	{
             id: 4,
             name: 'Charmander',
             image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png',
